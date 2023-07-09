@@ -8,9 +8,9 @@ Console.WriteLine("Hello, World!");
 Dictionary<string, int> dictionary = new Dictionary<string, int>();
 
 // Dictionary'ye eleman ekleme.
-dictionary.Add("elma", 50);
-dictionary.Add("armut", 100);
-dictionary.Add("portakal", 75);
+dictionary.Add("kiraz", 50);
+dictionary.Add("karpuz", 100);
+dictionary.Add("mandalina", 75);
 
 // Dictionary'deki tüm elemanların yazdırılması.
 foreach (KeyValuePair<string, int> kvp in dictionary)
@@ -19,17 +19,17 @@ foreach (KeyValuePair<string, int> kvp in dictionary)
 }
 
 // Dictionary'deki belirli bir elemanın değerini güncelleme.
-dictionary["elma"] = 30;
+dictionary["kiraz"] = 30;
 
 // Dictionary'deki belirli bir elemanın değerini yazdırma.
 int value;
-if (dictionary.TryGetValue("elma", out value))
+if (dictionary.TryGetValue("kiraz", out value))
 {
-    Console.WriteLine("elma değeri: {0}", value);
+    Console.WriteLine("kiraz değeri: {0}", value);
 }
 else
 {
-    Console.WriteLine("elma anahtarı yok.");
+    Console.WriteLine("kiraz anahtarı yok.");
 }
 
 
