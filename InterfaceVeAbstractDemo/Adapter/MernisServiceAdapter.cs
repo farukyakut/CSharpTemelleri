@@ -13,7 +13,8 @@ namespace InterfaceVeAbstractDemo.Adapter
     {
         public bool CheckIfRealPerson(Customer customer)
         {
-           // KPSPublicSoapClient client = new KPSPublicSoapClient();
+          
+
            
         }
     }
